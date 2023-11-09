@@ -40,9 +40,7 @@ public abstract class Asset {
     }
 
 
-    public double getValue(){
-        double cost = getOriginalCost();
+  public abstract double getValue();
 
-        return cost;
-    }
+
 }
